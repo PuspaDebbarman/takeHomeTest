@@ -1,0 +1,42 @@
+
+.userDetails{
+    border-radius: 20px;
+    padding: 20px;
+    margin: 40px;
+    display: flex;
+   
+    justify-content: space-around;
+    min-height: 50px;
+    border-top: 1px rgb(212, 211, 211) solid;
+    border-bottom: 1px rgb(212, 211, 211) solid;
+}
+.imgAvatar{
+    border-radius: 60%;
+    height: 30vh;
+}
+.btnCard{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+.btnUpdate, .btnDelete{
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    background-color: rgb(66, 66, 207);
+    color: white;  
+    transition: 0.1s ease;
+}
+
+.btnUpdate:hover, .btnDelete:hover{
+    cursor: pointer;
+    background-color: rgb(41, 41, 155);
+}
+.cardShow{
+    transition: 0.3s ease;
+    width: 15rem;
+    
+}
+.cardShow:hover{
+    transform: scale(1.05);
+}

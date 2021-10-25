@@ -1,0 +1,32 @@
+.App{
+  
+  min-height: 100vh;
+}
+.users{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-top: 1px rgb(212, 211, 211) solid;
+}
+.header{
+  display: flex;
+  justify-content: space-around; 
+  padding: 20px;
+  
+  background-color: rgb(212, 211, 211) ;
+}
+.heading{
+  font-size: 30px;
+}
+.btnAdd{
+  padding: 5px 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(66, 66, 207);
+  color: white;
+  transition: 0.1s ease;
+}
+.btnAdd:hover{
+cursor: pointer;
+background-color: rgb(41, 41, 155);
+}
